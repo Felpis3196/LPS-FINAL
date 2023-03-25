@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/agendamento.css" />
+    <link rel="icon" type="image/png" href="../img/logo69.png" />
+    <title>Little Pet Shop - AGENDA</title>
+</head>
+<body>
+
+<!-- HEADER COMEÇO -->
+
+    <header>
+        <a href="../html/index.html"><img src="../img/logo69.png"></a>
+
+        <div id="pesquisa">
+            <input type="search" placeholder="Para seu pet procure aqui...">
+            <button type="button" action="#" name="search"><img src="../img/search-i.jpg"></button>
+        </div>
+        
+        
+        <div id="perfil">
+            <img src="../img/profile.jpg">   
+            <span><span>Bem Vindo!</span><br><a href="../html/login.html">Entre</a>ou<a href="../html/register.html">Cadastre-se</a></span>
+        </div>
+        <a href="../html/produtos.html"><img id="carrinhoc" src="../img/carrinho.png"></a>
+    </header>
+
+<!-- HEADER FIM -->
+
+
+<!-- COMEÇO NAV -->
+
+<nav>
+
+    <a href="../html/index.html">Home</a>
+    <a href="../html/agendamento.html">Agende Aqui</a>
+    <a href="../html/contato.html">Entre Em Contato</a>
+    <a href="../html/relatos.html">Relatos</a>
+    <a href="../html/sobre-nos.html">Quem Somos</a>
+
+</nav>
+
+<!-- NAV FIM -->
+
+
+<!-- INICIO IMG HOME -->
+<div id="img-agendamento">
+
+    <div id="agendamento-txt">
+        <h2>Agende Aqui!</h2>
+    </div>
+
+</div>
+<!-- FIM IMG HOME -->
+
+<div id="container-agendamento">
+
+    <h1>Preencha o Formulário</h1>
+
+    <div id="agendamento">
+        
+
+        <div id="agendamento-forms">
+
+
+            <div id="forms-esquerda">
+                
+                <form action="#">
+
+                    <label for="frm-servico-dd">Selecione o serviço:</label>
+                    <br>
+                    <select name="frm-servico-dd" id="servicos">
+                        <option value="selecione">Selecione o que deseja</option>
+                        <option value="tosa">Tosa</option>
+                        <option value="banho">Banho</option>
+                        <option value="consulta">Consulta Veterinária</option>
+                    </select>
+                    <br>
+                    <label for="data-hora">Selecione DATA/HORA</label>
+                    <br>
+                    <input type="date" name="data-hora">
+                    <input type="time" name="data-hora">
+                    <br>
+                    <label for="adress">Endereço:</label>
+                    <br>
+                    <input type="text" name="adress" placeholder="Endereço">
+                    <br>
+                    <label for="contato">Contato:</label>
+                    <br>
+                    <input type="tel" name="contatop" placeholder="(99) 9999-9999">
+                    <h3>Agradecemos a sua confiança em nós!!</h3>
+
+                </form>
+
+            </div>
+
+            <div id="forms-direita">
+                <label for="pet-info">Informações do pet:</label>
+                <input type="text" name="pet-nome" placeholder="Nome do pet">
+                <input type="date" name="pet-idade" placeholder="Idade do pet">
+                <br>
+                <label for="animal">Selecione o animal:</label>
+                <span>
+                    <label for="cachorro">Cachorro</label>
+                    <input type="checkbox" name="cachorro">
+                    <label for="gato">Gato</label>
+                    <input type="checkbox" name="gato">
+                </span>
+                <br>
+                <label for="especie">Qual a espécie?</label>
+                <input type="text" name="especie" placeholder="Digite a raça do pet">
+                <br>
+                <label for="pagamento" name="metodo-pagamento">Escolha o metódo de pagamento:</label>
+                <select name="pagamento">
+                    <option value="pix">PIX</option>
+                    <option value="cartao1">Cartão crédito</option>
+                    <option value="cartao2">Cartão débito</option>
+                    <option value="dinheiro">Dinheiro</option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="butt">
+        <button type="submit" name="enviar" action="#" id="enviar">Enviar</button>
+        <button type="reset" name="cancelar" action="#" id="cancelar">Apagar Tudo</button>
+    </div>
+
+</div>
+
+<!-- COMEÇO FOOTER -->
+
+<footer>
+
+    <div id="footer-desc">
+
+        <p>
+            Desenvolvido Por - Tech Inside <br/>
+            Todos Direitos Reservados - &copy; <br/>
+            Areiópolis SP, Rua das Paixões, 666 <br/>
+            (14) 4002-8922
+        </p>
+
+        <div id="footer-icons">
+            <img class="icons" src="../img/youtube.png">
+            <img class="icons" src="../img/instagram.png">
+            <img class="icons" src="../img/twitter.png">
+            <img class="icons" src="../img/whatsapp.png">
+        </div>
+        
+    </div>  
+
+</footer>
+
+<!-- FIM FOOTER -->
+</body>
+</html>

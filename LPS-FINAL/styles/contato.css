@@ -1,0 +1,120 @@
+#container {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    background-color: #fffce2;
+}
+
+#informacoes-cliente {
+   display: flex;       
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border: solid 1px black;
+    padding: 50px 0px; 
+
+}
+
+label, input {
+    padding: 8px 10px;
+}
+
+#frm-buttons {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 100px 400px;
+}
+
+#botao-enviar {
+    background-color: #8cc63d;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    color: black;
+}
+
+#botao-apagar {
+    background-color: lightgray;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    color: black;
+}
+
+#mapa {
+    width: 50%;
+    text-align: center;
+}
+
+#form-contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+}
+
+#titulofale {
+    text-align: center;
+    margin-top: -50px;
+}
+
+#file {
+    width: 25px;
+    height: 25px; 
+    margin-bottom: -1px;  
+}
+
+#smartphone {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -2px;
+}
+
+#email {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+}
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/
+
+
+@media (max-width: 768px) {
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#informacoes-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+#form-contato{
+    padding: 0;
+    margin: 0;
+}
+
+#mapa{
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/

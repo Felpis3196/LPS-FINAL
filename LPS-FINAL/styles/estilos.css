@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+
+/* ESTILOS PARA O HEADER START */
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+header img{
+    width: 185px;
+}
+
+#carrinhoc{
+    width: 80px;
+    padding-top: 25px;
+}
+
+header input{
+    height: 28px;
+    width: 425px;
+    margin-top: 50px;
+}
+
+#perfil{
+    display: flex;
+    padding-top: 39px;
+}
+
+#perfil span span{
+    padding-left: 5px;
+}
+
+#perfil a{
+    text-decoration: underline;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#perfil img{
+    width: 50px;
+    height: 50px;
+}
+
+#pesquisa{
+    display: flex;
+}
+
+#pesquisa img{
+    width: 20px;
+}
+
+#pesquisa button{
+    background-color: white;
+    border: 1px solid black;
+    height: 28px;
+    margin-top: 50px;
+}
+/* ESTILOS PARA O HEADER END */
+
+/* ESTILOS PARA O NAV START*/
+nav{
+    background-color: #f5941e;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0px;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 15px white;
+}
+/* ESTILOS PARA O NAV END*/
+
+/* ESTILOS PARA O CONTAINER START */
+
+#container{
+    padding: 15px;
+    background-color: #fffce2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BANNER PRINCIPAL */
+#img-home{
+    width: 100%;
+    background-image: url(../img/bg3-1.jpg);
+    height: 330px;
+    background-size: cover;
+    display: flex;
+}
+
+#img-home a{
+    text-decoration: none;
+    color: black;
+}
+
+#img-home span{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#destaque{
+    padding: 50px;
+}
+
+#destaque a{
+    text-decoration: none;
+}
+
+#destaque a:hover{
+    text-shadow: 0px 0px 15px white;
+}
+
+#destaque h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#destaque p{
+    background-color: #ffcb1c;
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+}
+/* BANNER PRINCIPAL */
+
+/* PROMOÇÕES */
+#box-promo{
+    display: flex;
+
+    margin: 25px;
+}
+
+#desconto{
+    color: red;
+    text-decoration: line-through;
+}
+
+.promo-card{
+    display: flex;
+    border: 1px solid black;
+    padding: 15px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.img-promo{
+    height: 150px;
+}
+
+#promo-txt{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#promo-icon{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+#promo-icon p{
+    font-weight: bold;
+    color: #8cc63d;
+}
+/* PROMOÇÕES */
+
+/* SERVIÇOS FISICOS */
+
+#box-servicos{
+    display: flex;
+    margin: 25px;
+    
+}
+
+.serv-card{
+    display: flex;
+    border: 1px solid black;
+    padding: 15px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.img-serv{
+    height: 150px;
+}
+
+#serv-txt{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#servico-icon{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+#servico-icon p{
+    font-weight: bold;
+    color: #8cc63d;
+}
+/* SERVIÇOS FISICOS */
+
+/* PARCEIRAS */
+
+#parceiras h2{
+    text-align: center;
+    color: #8cc63d;
+    font-family: cursive;
+}
+
+#card-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#whiskas-logo{
+    width: 200px;
+    height: 150px;
+}
+
+#golden-logo{
+    width: 180px;
+}
+
+#pedigree-logo{
+    width: 200px;
+}
+
+#royal-logo{
+    width: 200px;
+}
+/* PARCEIRAS */
+
+/* ESTILOS PARA O CONTAINER END */
+
+/* ESTILOS FOOTER START */
+
+footer{
+    background-color: #8cc63d;
+    color: white;
+}
+
+#footer-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-desc p{
+    text-align: center;
+}
+
+.icons{
+    width: 50px;
+}
+
+#footer-icons img{
+    padding: 0px 10px;
+}
+
+
+
+/* ESTILOS FOOTER END */
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/
+
+@media (max-width: 768px) {
+
+body{
+    font-size: 12px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header input{
+    width: 220px;
+}
+
+#box-promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.promo-card{
+    width: 320px;
+    padding: 0;
+    margin: 0;
+}
+
+#box-servicos{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.serv-card{
+    width: 320px;
+    padding: 0;
+    margin: 0;
+}
+
+#card-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/

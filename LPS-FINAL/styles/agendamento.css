@@ -1,0 +1,150 @@
+/* BANNER PRINCIPAL */
+
+#img-agendamento{
+    width: 100%;
+    background-image: url(../img/bg2.jpg);
+    height: 330px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#agendamento-txt{
+    padding: 50px;
+    display: flex;
+}
+
+#agendamento-txt h2{
+    text-align: center;
+    color: #f5941e;
+    font-weight: bolder;
+}
+
+/* BANNER PRINCIPAL */
+
+/* CONTAINER */
+
+#container-agendamento h1{
+    background-color: #8cc63d;
+    color: white;
+    padding: 12px;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+/* CONTAINER */
+
+/* FORMS */
+#container-agendamento{
+    background-color: #fffce2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#agendamento{
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#agendamento-forms{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 400px;
+    width: 650px;
+
+}
+
+#forms-direita{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 200px;
+}
+
+
+#forms-direita span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+#forms-esquerda{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    width: 200px;
+}
+
+#forms-esquerda span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+/* FORMS */
+
+/* BUTT */
+
+#butt{
+    padding-top: 25px; 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 430px;
+}
+
+#butt button{
+    padding: 10px;
+    border: 0;
+}
+
+#enviar{
+    background-color: #8cc63d;
+    color: white;
+    border-radius: 5px;
+}
+
+#cancelar{
+    background-color: lightslategray;
+    color: white;
+    border-radius: 5px;
+}
+
+/* BUTT */
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/
+
+@media (max-width: 768px) {
+
+#agendamento-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+#img-agendamento{
+    width: 100%;
+    background-image: url(../img/bg2.jpg);
+    height: 330px;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/

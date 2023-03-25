@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* CONTAINER SOBRE NÓS */
+
+#container-sobre{
+    padding: 50px;
+    background-color: #fffce2;
+}
+
+#cardoso {
+    display: flex;
+    font-size: 36px;
+    color: #5A5757;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#foto {
+    padding: 25px;
+    border-radius: 36px;
+    width: 536px;
+    height: 320px;
+}
+
+#miro{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+#fotomiro {
+    height: 224px ;
+    width:218px ;
+    padding: 25px;
+    border-radius: 36px;
+}
+
+#texto-miro{
+    display: flex;
+    flex-direction: column;
+    color: #5A5757;
+}
+
+#informacao-miro {
+    font-size: 36px;
+    color: #5A5757;
+}
+
+li {
+    text-align: left;
+    list-style: none;
+}
+
+#cardoso-txt{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/* CONTAINER SOBRE NÓS */
+
+/*******************************************************
+   Estilos para responsividade
+********************************************************/
+
+@media (max-width: 768px) {
+
+#container-sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+#cardoso{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#cardoso img{
+    width: unset;
+    height: unset;
+}
+
+#miro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+  
+/*******************************************************
+   Estilos para responsividade
+********************************************************/
+    
